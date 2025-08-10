@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaymeen Bhatt - Ethical Hacker | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-text">
+                <span>INITIALIZING...</span>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Matrix Background -->
+    <div id="matrix-bg" class="matrix-background"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <i class="fas fa-chess-knight"></i>
+                    <span>EthicalKnight</span>
+                </div>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact Me</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-quotes">
+                    <h1 class="typewriter" id="typewriter1">In Code We Trust</h1>
+                    <p class="typewriter" id="typewriter2">Hacker by Passion | Attacker by Purpose</p>
+                </div>
+                <div class="hero-title">
+                    <h2 class="name-title">JAYMEEN BHATT</h2>
+                    <p class="alias">A.K.A <span class="highlight">@ETHICALKNIGHT</span></p>
+                </div>
+
+                <div class="hero-buttons" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <button class="btn btn--primary hire-btn">
+                        <i class="fas fa-code"></i>
+                        Hire Me
+                    </button>
+                    <button class="btn btn--primary download-btn" onclick="window.location.href='C:\Users\JAYMEEN\Downloads\hacker-portfolio\assets\Jaymeen_Bhatt_Cybersecurity_resume .pdf'">
+                        <i class="fas fa-code"></i>
+                        Download CV
+                    </button>
+                </div>
+
+                <div class="hero-social" style="display: flex; gap: 10px; margin-top: 15px;">
+                    <a href="https://instagram.com/jaymeen__bhatt" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/ethicalknight" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/ethicalknight" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="assets/av3.png" alt="Jaymeen Bhatt Avatar" class="avatar-img" style="width: 100%; height: 100%; border-radius: 50%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title">SERVICES</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Penetration Testing</h3>
+                    <p>Comprehensive security assessments to identify vulnerabilities in your systems</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Vulnerability Assessment</h3>
+                    <p>Detailed analysis and reporting of security weaknesses in your infrastructure</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Security Consulting</h3>
+                    <p>Expert guidance on cybersecurity best practices and compliance requirements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+   <section id="about" class="about section">
+    <div class="container">
+        <h2 class="section-title">ABOUT ME</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>HELLO, I AM <span class="highlight">JAYMEEN BHATT</span></h3>
+                <p>AI-driven developer and <span class="highlight">cybersecurity specialist</span> passionate about building intelligent, secure, and scalable digital solutions. Skilled in <span class="highlight">artificial intelligence</span>, <span class="highlight">full-stack development</span>, and <span class="highlight">penetration testing</span>. I blend innovation with security to create technology that’s both powerful and protected, aiming to push boundaries in <span class="highlight">AI applications</span> and <span class="highlight">cyber defense</span>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Tools & Technologies -->
+<section id="tools" class="tools section">
+    <div class="container">
+        <h2 class="section-title">TOOLS & TECHNOLOGIES</h2>
+        <div class="tools-content">
+            <div class="tech-icons">
+                <div class="tech-item" data-name="Python">
+                    <div class="tech-icon">🐍</div>
+                    <span>Python</span>
+                </div>
+                <div class="tech-item" data-name="TensorFlow">
+                    <div class="tech-icon">🧠</div>
+                    <span>TensorFlow</span>
+                </div>
+                <div class="tech-item" data-name="PyTorch">
+                    <div class="tech-icon">🔥</div>
+                    <span>PyTorch</span>
+                </div>
+                <div class="tech-item" data-name="Burp Suite">
+                    <div class="tech-icon">🔍</div>
+                    <span>Burp Suite</span>
+                </div>
+                <div class="tech-item" data-name="Wireshark">
+                    <div class="tech-icon">🦈</div>
+                    <span>Wireshark</span>
+                </div>
+                <div class="tech-item" data-name="Kali Linux">
+                    <div class="tech-icon">🐧</div>
+                    <span>Kali Linux</span>
+                </div>
+                <div class="tech-item" data-name="VS Code">
+                    <div class="tech-icon">💻</div>
+                    <span>VS Code</span>
+                </div>
+                <div class="tech-item" data-name="HTML5">
+                    <div class="tech-icon">🌐</div>
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-item" data-name="JavaScript">
+                    <div class="tech-icon">⚡</div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-item" data-name="Docker">
+                    <div class="tech-icon">🐳</div>
+                    <span>Docker</span>
+                </div>
+            </div>
+            <div class="skills-bars">
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Python</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>AI & Machine Learning</span>
+                        <span>45%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="45"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Web Development</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Penetration Testing</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Ethical Hacking</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Digital Forensics</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="60"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>OSINT</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   <!-- Portfolio -->
+<section id="portfolio" class="portfolio section">
+    <div class="container">
+        <h2 class="section-title">PROJECTS & TOOLS</h2>
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Anant 1.0</h3>
+                    <p>AI-powered personal assistant like JARVIS with penetration testing capabilities. Ongoing development for advanced automation, cybersecurity, and offline AI features.</p>
+                    <a href="https://github.com/ethicalknight/Anant-1.0" target="_blank">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>WebSecScanner</h3>
+                    <p>Python-based web vulnerability scanner for detecting common security issues in websites. Currently improving detection modules and UI.</p>
+                    <a href="https://github.com/ethicalknight/WebSecScanner" target="_blank">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <div class="project-placeholder">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Portfolio Website</h3>
+                    <p>This personal portfolio website showcasing my AI, development, and cybersecurity projects with a custom dark hacker theme.</p>
+                    <a href="https://github.com/ethicalknight/Jaymeen_Bhatt_portfolio" target="_blank">
+                        <i class="fab fa-github"></i>
+                        View on GitHub
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Learning Platforms -->
+    <section id="learning" class="learning section">
+        <div class="container">
+            <h2 class="section-title">LEARNING PLATFORMS</h2>
+            <div class="platforms-grid">
+                <a href="https://tryhackme.com" target="_blank" class="platform-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>TryHackMe</span>
+                </a>
+                <a href="https://hackthebox.com" target="_blank" class="platform-item">
+                    <i class="fas fa-cube"></i>
+                    <span>Hack The Box</span>
+                </a>
+                <a href="https://github.com" target="_blank" class="platform-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="#" class="platform-item">
+                    <i class="fab fa-linux"></i>
+                    <span>Linux</span>
+                </a>
+                <a href="https://udemy.com" target="_blank" class="platform-item">
+                    <i class="fas fa-play"></i>
+                    <span>Udemy</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cybernexxus Community -->
+    <section id="community" class="community section">
+        <div class="container">
+            <h2 class="section-title">Join Cybernexxus</h2>
+            <div class="community-content">
+                <p class="community-description">Connect with cybersecurity professionals, share knowledge, and tackle challenges together</p>
+                <div class="community-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="1200">0</span>
+                        <span class="stat-label">Members</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="150">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="500">0</span>
+                        <span class="stat-label">Challenges</span>
+                    </div>
+                </div>
+                <button class="btn btn--primary community-btn">
+                    <a href="https://cybernexxus.github.io" target="_blank">
+                        <i class="fas fa-users"></i>
+                    Join Community
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <h2 class="section-title">TESTIMONIALS</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <p class="testimonial-text">"Jaymeen's expertise in cybersecurity is exceptional. His penetration testing skills helped us identify and fix critical vulnerabilities."</p>
+                        <div class="testimonial-author">
+                            <h4>Sarah Johnson</h4>
+                            <span>CTO, TechCorp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <p class="testimonial-text">"Working with Jaymeen was a great experience. His ethical hacking approach and professionalism are outstanding."</p>
+                        <div class="testimonial-author">
+                            <h4>Mike Chen</h4>
+                            <span>Security Manager, DataSafe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <p class="testimonial-text">"Jaymeen's knowledge and teaching ability make him an excellent cybersecurity consultant and mentor."</p>
+                        <div class="testimonial-author">
+                            <h4>Alex Rodriguez</h4>
+                            <span>Lead Developer, SecureNet</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">CONTACT ME</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span id="email">jaymeen.bhatt.cyber@gmail.com</span>
+                        <button class="copy-btn" onclick="copyToClipboard('email')">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span id="phone">+91-9016989717</span>
+                        <button class="copy-btn" onclick="copyToClipboard('phone')">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://instagram.com/jaymeen__bhatt" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/ethicalknight" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/ethicalknight" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="from_name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="reply_to" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+                <script>
+                    (function(){
+                        emailjs.init("rNz3ohzxI1T3E6YzN");
+                        })();
+                </script>
+                <script>
+                    document.getElementById("contactForm").addEventListener("submit", function(e) {
+                    e.preventDefault();
+    
+                     emailjs.sendForm('service_lwc8wrq', 'template_p9bewio', this)
+                    .then(function() {
+                    alert('Message sent successfully!');
+                    }, function(error) {
+                    alert('Failed to send: ' + JSON.stringify(error));
+                    });
+                    });
+                </script>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jaymeen Bhatt. All rights reserved.
+            Designed with <i class="fas fa-heart"></i> by EthicalKnight</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
